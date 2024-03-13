@@ -1,0 +1,237 @@
+/************ Small devices (phones, less than 768px) *******************/
+
+@media (max-width: 767.98px) {
+    
+    .main-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /**************** NAV *********/
+    .haut-de-page {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .haut-de-page img{ /* logo booki */
+        display: flex;
+        align-self: center;
+        padding: 0 ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }
+    
+    .boutons-haut {
+        display: flex;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 35px;
+        
+    }
+
+    .boutons-haut li {
+        width: 50%;
+    }
+
+    .bouton-hebergement-activites {
+        border-bottom: 2px #F2F2F2 solid ;
+        padding-bottom: 14px;
+        display: block;
+        text-align: center;
+    }
+    
+    .bouton-hebergement-activites:hover {
+        color: #0065FC;
+        border-bottom: 2px #0065FC solid ;
+        border-top: none;
+    }
+    
+    h1 {
+        padding-left: 20px;
+        font-size: 20px;
+        padding-right: 15px;
+    }
+    
+    .slogan {
+        padding-left: 20px;
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    
+    
+    /****************** MAIN *****************/
+    
+    /*********Rechercher************/
+
+    .rechercher {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .rechercher button {
+        border-radius: 10px;
+        width: 53px;
+        height: 53px;
+        position: relative;
+        left: -5px;
+    }
+
+    .rechercher .pre-recherche {
+        width: 60px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .rechercher input{ 
+        width: 80%;
+    }
+
+    .mobile-only {
+        display: flex;
+        color: white;
+    }
+
+    .rechercher strong {
+        display: none;
+    }
+    
+    /*************Filtres**********/
+    
+
+    .filtres {
+        gap: 20px 10px;
+        padding : 0 20px 30px 30px;
+    }
+
+    .filtre {
+        width: calc(50% - 40px);
+    }
+
+    .texte-filtres {
+        font-size: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+
+    /**********Plus-de-500*************/
+
+    .plus-de-500 {
+        padding-left: 20px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 0;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .plus-de-500 i {
+
+        flex: none;
+
+    }
+    
+    /****** Vignettes *******/
+    
+
+    .populaires-cards img {
+        width: 111px;       
+        height: 146px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .vignettes-gauche {
+        justify-content: center;
+
+    }
+    
+    .vignettes-gauche img {
+        width: 315px;
+        height: 141px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .hebergements-and-populaires section {
+        border-radius: 0;
+    }
+    
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;    
+    }
+    
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .populaires-cards .card {
+        width: 100%;
+    }
+    
+    .hebergement_title {
+        display: flex;
+        width: 100%;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0;
+    
+    }
+    
+    
+    
+    /******Activités à Marseille**********/
+    
+    .activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding-left: 30px;
+        
+    }
+
+    .activites-a-marseille h2 {
+        padding-left: 30px;
+        
+    }
+    
+    .activites-a-marseille img {
+        width: 315px;
+        height: 141px;
+    }
+    
+    .card-deux {
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+        width: 315px;
+        height: 212px;
+    }
+    
+    /****************FOOTER**************/
+    
+    .en-bas{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .en-bas ul {
+        width: auto;
+    }
+    
+
+}
